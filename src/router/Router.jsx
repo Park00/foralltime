@@ -122,9 +122,9 @@ export default function Router() {
                     path={'/foralltime/'}
                     render={() => {
                         return (
-                          <Layouts.HorizontalLayout>
+                          <Layouts.VerticalLayout>
                               <HomePage />
-                          </Layouts.HorizontalLayout>
+                          </Layouts.VerticalLayout>
                         )
                     }}
                 />
