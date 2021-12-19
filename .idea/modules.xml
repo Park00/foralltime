@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../foralltime-library/.idea/ForAllTime.iml" filepath="$PROJECT_DIR$/../foralltime-library/.idea/ForAllTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/foralltime.iml" filepath="$PROJECT_DIR$/.idea/foralltime.iml" />
     </modules>
   </component>
 </project>
