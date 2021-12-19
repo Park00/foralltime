@@ -119,7 +119,7 @@ export default function Router() {
                 {/* Home Page */}
                 <Route
                     exact
-                    path={'/'}
+                    path={'/foralltime'}
                     render={() => {
                         return (
                             DefaultLayout == "HorizontalLayout" ? (
