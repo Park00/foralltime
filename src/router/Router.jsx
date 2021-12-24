@@ -119,18 +119,12 @@ export default function Router() {
                 {/* Home Page */}
                 <Route
                     exact
-                    path={'/'}
+                    path={'/foralltime/'}
                     render={() => {
                         return (
-                            DefaultLayout == "HorizontalLayout" ? (
-                                <Layouts.HorizontalLayout>
-                                    <HomePage />
-                                </Layouts.HorizontalLayout>
-                            ) : (
-                                <Layouts.VerticalLayout>
-                                    <HomePage />
-                                </Layouts.VerticalLayout>
-                            )
+                          <Layouts.VerticalLayout>
+                              <HomePage />
+                          </Layouts.VerticalLayout>
                         )
                     }}
                 />
