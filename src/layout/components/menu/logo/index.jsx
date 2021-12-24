@@ -15,7 +15,7 @@ export default function MenuLogo(props) {
 
   return (
     <Link
-      to="/"
+      to="/foralltime/"
       className="da-header-logo da-d-flex da-align-items-end"
       onClick={props.onClose}
     >
